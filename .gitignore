@@ -1,0 +1,66 @@
+﻿# STM32 Project .gitignore
+
+# Compiled files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.axf
+*.out
+
+# Build directories
+build/
+Debug/
+Release/
+
+# IDE files and folders
+.vscode/
+.cubeide/
+.settings/
+.project
+.cproject
+.launch
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+*~
+
+# Log files
+*.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Keil files
+*.uvopt
+*.uvproj
+*.uvgui*
+*.bak
+
+# STM32CubeMX
+.ioc.user
+
+# Executable files
+*.exe
+
+# Test files
+*_test
+
+# Documentation build files
+docs/build/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Backup files
+*.backup
+*.old
+
+# Doxygen generated files
+doxygen/
