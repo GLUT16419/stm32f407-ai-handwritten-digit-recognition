@@ -48,6 +48,9 @@ Thumbs.db
 # Executable files
 *.exe
 
+# Exception for HandWriteApp
+!HandWriteApp.exe
+
 # Test files
 *_test
 
